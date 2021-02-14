@@ -1,0 +1,60 @@
+
+.container {
+  display: block;
+  position: absolute;
+  bottom: 1px;
+  right: 1605px;
+  background: rgba(0,0,0,0.6);
+  border-right: 2px solid rgb(223, 107, 40);
+  border-left: 2px solid rgb(201, 95, 33);
+  border-bottom: 2px solid rgb(192, 92, 25);
+  border-top: 2px solid rgb(190, 96, 33);
+  padding: 1px;
+}
+#barIcon{
+  width: 7px;
+  height: 7px;
+  float: left;
+  padding: 0;
+  margin: 3px;
+  color: #fff;
+  font-size: 10px;
+}
+#health {
+  width: 130px;
+  height: 5px;
+  padding: 0;
+  float:left;
+  padding:2px;
+  background: rgba(0,0,0,1);
+  margin: 3px;
+}
+#armor {
+  width: 130px;
+  height: 5px;
+  padding: 0;
+  float:left;
+  padding:2px;
+  background: rgba(0,0,0,1);
+  margin: 3px;
+}
+#boxHealth, #boxArmor {
+  background: rgba(0,0,0,1);
+  width: 20%;
+  height: 50%;
+  transition: 0.2s ease-in-out;
+  background: #dd7f14;
+  border-top: 2px solid rgb(190, 96, 33);
+}
+#boxHealth {
+  background: rgb(218, 117, 35);
+}
+#boxArmor {
+  background: rgb(209, 107, 23);
+}
+body {
+  overflow: hidden;
+  height:1080px;
+  width:20%;
+}
+  
